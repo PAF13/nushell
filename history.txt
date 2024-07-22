@@ -1,0 +1,576 @@
+help
+help commands
+clear
+list
+ls
+clear
+cd c:
+cd C:\Users\administrator.ME0\Desktop\Verbindungslisten
+ls
+open --raw Verbindungsliste.csv | from csv
+ls
+open --raw Verbindungsliste.csv | from csv --separator ';'
+get STOP1
+cd \\ME-Datenbank-1\Projektdaten 2024\KROENERT\8000634_Kay II-Automotive\04 FERTIGUNGSDATEN\02 DRAHT
+cd '\\ME-Datenbank-1\Projektdaten 2024\KROENERT\8000634_Kay II-Automotive\04 FERTIGUNGSDATEN\02 DRAHT'
+ls
+open --raw  ==CM1=00C++MH1+EC0_WIR.csv | from csv --separator ';'
+$nu.env-path
+^cd C:\Users\administrator.ME0\AppData\Roaming\nushell
+cd C:\Users\administrator.ME0\AppData\Roaming\nushell
+mkdir ~/.cache/starship
+starship init nu | save -f ~/.cache/starship/init.nu
+mkdir .cache/starship
+starship init nu | save -f ~/.cache/starship/init.nu
+starship init nu | save -f .cache/starship/init.nu
+starship preset tokyo-night -o ~/.config/starship.toml
+starship preset tokyo-night -o .config/starship.toml
+starship preset tokyo-night -o ~/.config/starship.toml
+ls
+starship preset gruvbox-rainbow -o ~/.config/starship.toml
+starship preset tokyo-night -o ~/.config/starship.toml
+ls
+nuvim
+nvim
+starship preset jetpack -o ~/.config/starship.toml
+cleaer
+clear
+cd C:\Users\administrator.ME0\AppData\Roaming\nushell
+ls
+cd ../../
+cd ../
+ls
+cd C:
+ls
+mkdir scripts
+ls
+cd scripts
+ls
+config
+config nu
+$env.EDITOR = nvim
+knt
+config nu
+knt
+config nu
+knt
+config nu
+$env.EDITOR = nvim
+config nu
+$env.EDITOR = nvim
+config nu
+knt
+ls
+knt
+ls
+ls | nth 2
+ls
+cd nth1
+ls
+cd nth 1
+ls | nth 2
+ls | get 4
+cd get 4
+cd get 1
+ls
+cdindex5
+config nu
+$env.PATH
+cd C:\Users\administrator.ME0\AppData\Roaming\nushell
+mkdir ~/.nu_scripts
+mkdir .nu_scripts
+$env.PATH = ($env.PATH | append .nu_scripts)
+$env.PATH
+$env.PATH = ($env.PATH | append ~/.nu_scripts)
+$env.PATH
+knt
+ls
+cd *Svante
+cd **Svante
+cd '*Svante'
+&env
+config nu
+$env | table -e
+ls
+select 5
+get name
+ls | select 5 | get name
+ls | select 5 | get path
+ls | select 5
+ls | select 5 | get name | clip
+ls | select 5 | get name | path expand | clip
+ls | select 5 | get name 
+ls | select 5 | cd name 
+starship preset tokyo-night -o ~/.config/starship.toml
+clear
+$env.PROMPT_COMMAND | describe
+$env | table -e
+> $env.FOO = 'BAR'
+> $env.FOO
+$env.FOO
+$env.FOO = 'BAR'
+$env.FOO
+$env.HOME = 'C:\Dev\!home'
+$env.HOME
+cd $env.HOME
+cd
+cd $env.HOME
+cd HOME
+knt
+ls
+cd 8000634_Kay_II-Automotiv
+cd 8000634_Kay_II-Automotive
+cd "8000634_Kay II-Automotive"
+../
+cd `8000634_Kay II-Automotive\`
+cd `04 FERTIGUNGSDATEN\`
+cd `02 DRAHT\`
+ls
+cd ==CM1=00C++MH1+EC3\
+ls
+open --raw ==CM1=00C++MH1+EC3_WIR.csv | from csv --separator ';'
+cd $env.HOME
+knt
+cd `8000634_Kay II-Automotive\`
+cd `04 FERTIGUNGSDATEN\`
+cd `02 DRAHT\`
+ls
+cd ==CM1=00C++MH1+EC3\
+open --raw ==CM1=00C++MH1+EC3_WIR.csv | from csv --separator ';'
+starship preset jetpack -o ~/.config/starship.toml
+clear
+$LENGTH
+let sales = open --raw ==CM1=00C++MH1+EC3_WIR.csv | from csv --separator ';'
+$sales
+explore -i
+$sales | explore -i
+$sales | group-by "CROSSECTION"
+$sales | group-by "CROSSsECTION"
+$sales | group-by "CROSSSECTION"
+$sales | group-by "CROSSSECTION" | explore -i
+$sales | group-by "CROSSSECTION" --to-table | explore -i
+cd HOME
+cd $env.HOME
+ls
+cd scripts\
+ls
+open StartWindowManager.bat
+^StartWindowManager.bat
+clear
+$env
+cd
+ls
+cd c:
+cd c:/
+ls
+$env | explore -i
+config nu
+home
+source $nu.config-path
+home
+HOME
+$env.HOME
+cd $env.HOME
+cd
+cd $env.HOME
+$env
+$env | explore -i
+config nu
+source $nu.config-path
+config nu
+source $nu.config-path
+home
+homedev
+kt
+knt
+kn
+knt
+$env | explore -i
+config nu
+source $nu.config-path
+cd `8000634_Kay II-Automotive\`
+nc
+ls
+back
+config nu 
+source $nu.config-path
+back
+ls
+draht
+ls
+clear
+clear
+home
+HOME
+source $nu.config-path
+home
+cd C:/
+ls
+home
+$ scoop bucket add extras
+scoop bucket add extras
+scoop install win-vind
+ls
+nvim
+ls
+notes
+nvim notes
+rm notes
+ls
+vnim
+nvim
+notes.md
+help
+nvim notes
+ls
+nvim notes.md
+knt
+nc
+cd `8000634_Kay II-Automotive\`
+nc
+ls
+update
+reset
+update
+config nu 
+source $nu.config-path
+config nu 
+source $nu.config-path
+cd
+cd c:/
+ls
+mkdir home
+cd home
+source $nu.config-path
+cd
+home
+mkdir notes
+cd notes
+source $nu.config.path
+source $nu.config-path
+home
+cd notes
+vnim schmeerset
+nvim schmeerset
+ls
+ren schmeerset schmeerset.md
+rename schmeerset schmeerset.md
+ls
+mv schmeerset schmeerset.md
+ls
+clear
+clear
+notes.md
+nvim notes.md
+la
+ls
+$env
+config env 
+config nu
+source $nu.config-path
+$env.NVIM_PATH
+cd $env.NVIM_PATH
+clear
+nvim schmeerset.md
+ls
+cd bin
+ls
+../
+ls
+lib
+cd $XDG_CONFIG_HOME/nvim/init.vim
+$XDG_CONFIG_HOME
+nvim
+ls
+appdata
+$env.APPDATA
+config nu
+source $nu.config-path
+cd $env.NVIM_CONFIG
+ls
+nvim init.lua
+cd lua
+mkdir flavors
+cd flavors
+nvim init.lua
+init.lua
+cd $env.NVIM_CONFIG
+source $nu.config-path
+cd $env.NVIM_CONFIG
+ls
+init.lua
+nvim init.lua
+open init.lua
+nvim init.lua
+open init.lua
+clear
+nvim
+nvim
+nvim .
+nvim
+nvim .
+ls
+nvim
+nvim init.lua
+nvim
+nvim init.lua
+mvim
+nvim
+nvim .
+nvim remap.lua
+nvim .
+konorebic stop
+komorebic stop
+git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
+^git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
+git clone https://github.com/wbthomason/packer.nvim '$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim'
+nvim .
+home
+ks
+ls
+notes
+cd notes
+ls
+open schmeerset.md
+nvim schmeerset.md
+nvim
+ls
+mkdir after/plugins
+cd after/plugins
+ls
+nvim . 
+nvim .
+nvim .
+nvim
+../
+cd plugin
+nvim .
+nvim .
+nvim
+cd $env.NVIM_CONFIG
+ls
+nvim .
+ls
+scripts
+cd scripts
+ls
+open StartWindowManager.bat
+$Env:USERPROFILE
+$env
+scoop
+scoop bucket add extras
+scoop bucket rm extras
+scoop bucket add extras
+$env.HOME
+config nu 
+scoop install komorebi whkd
+scoop install extras/autohotkey
+komorebic quickstart
+rm $Env:USERPROFILE\komorebi.json
+$env.PROFILE
+$env.USERPROFILE
+komorebic start --whkd
+cd c;/
+cd c:/
+ls
+cd Benutzer
+cd Users
+cd administrator.ME0\
+ls
+clear
+config env
+source $nu.config-path
+$env.KOMOREBI_CONFIG_HOME
+config nu
+source $nu.config-path
+$env.KOMOREBI_CONFIG_HOME
+$env.KOMOREBI.CONFIG_HOME
+config env
+komorebic stop
+komorebic quickstart
+cd C:\Users\administrator.ME0
+config env
+source $nu.config-path
+$env.KOMOREBI.CONFIG_HOME
+config nu
+source $nu.config-path
+$env.KOMOREBI.CONFIG_HOME
+komorebic quickstart
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+pwsh -command Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+pwsh -command "Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser"
+pwsh
+powershell -command Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+powershell -command $Env.KOMOREBI_KONFIG_HOME
+powershell -command "$Env.KOMOREBI_KONFIG_HOME"<\n>
+powershell $Env.KOMOREBI_KONFIG_HOME<\n>
+powershell -command $Env.KOMOREBI_KONFIG_HOME
+komorebic start --whkd
+komorebic stop
+komorebic start --whkd
+komorebic stop
+powershell -command komorebic start --whkd
+komorebic stop
+powershell -command komorebic start --whkd
+komorebic stop
+powershell -command komorebic start --whkd
+komorebic stop
+powershell -command komorebic start --whkd
+komorebic stop
+powershell -command komorebic start --whkd
+komorebic stop
+powershell -command komorebic quickstart
+windowmanager
+home
+ls
+scripts
+cd scripts
+vnim windowmanager.nu
+config nu 
+source $nu.config-path
+startwm
+stopwm
+source $nu.config-path
+stopwm
+startwm
+stopwm
+startwm
+knt
+cd `8000634_Kay II-Automotive\`
+ls
+nc
+ls
+home
+home
+nvim
+stopwm
+startwm
+back
+draht
+ls
+mkdir ==CM1=00C++MH1+EC2
+mkdir ==CM1=00C++MH1+EC4
+mkdir ==CM1=00C++MH1+EC5
+ls
+stopwm
+startwm
+clear
+nvm
+nvim
+clear
+knt
+home
+ls
+cd scripts
+ls | explore -i
+ls
+home
+scoop install fzf
+fzf
+fzf
+knt
+fzf
+fzf !\
+fzf !/
+fzf
+find . -type d -print | fzf
+find
+find .
+ls | fzf
+ls
+ls name
+ls | flatten
+ls name
+ls | select name
+ls | get name
+ls | get name | fzf
+ls | get name | values
+ls |  values
+ls | select name
+echo ls
+ls | select name 
+ls | select name | $in
+ls | select name | print
+ls | print
+^ls
+^cmd ls
+ls | complete
+ls | to csv
+ls | get name | to csv
+ls | select name | to csv
+ls | select name | to csv -n
+ls | select name | to csv -n | fzf
+ls | select name | to csv -n | fzf | cd
+clear
+knt
+ls | select name | to csv -n | fzf | %in | cd %in
+clear
+ls | select name | to csv -n | fzf
+ls | select name | to csv -n | fzf | fzf
+ls | select name | to csv -n | fzf ; fzf
+fzf
+clear
+ls
+cd notes
+ls
+npm install -g wsl-open
+$env
+$env | explore -i
+cd $env.NVIM_CONFIG
+ls
+nvim .
+cd C:/dev/obsidian
+ls
+nvim
+cd $env.NVIM_CONFIG
+nvim .
+ls | select name | to csv -n | fzf 
+ls | get name | to text
+ls | get name | to text | fzf
+ls
+knt
+ls
+ls | get name | to text | fzf
+$in
+ls | get name | to text | $in
+$in
+ls | get name | to text | fzf | cd $in
+cd //Blame-DB
+cd \\Blame-DB
+\\Blame-DB
+cd \\Blame-DB
+config env
+config nu 
+source $nu.config-path
+source $nu.config-path
+source $nu.config-path
+git clone https://github.com/PAF13/Obsidian_Siteca
+git clone https://github.com/PAF13/sitecawiki
+cd obsidian
+git clone https://github.com/PAF13/sitecawiki
+cd sitecawiki
+git remote -v
+npx quartz sync
+npx isntall yargs
+nps -v
+^npx quartz sync
+git remote https://github.com/PAF13/sitecawiki
+git remote https://github.com/PAF13/sitecawiki.git
+git clone https://github.com/PAF13/sitecawiki
+cd sitecawiki
+git remote -v
+git remote add upstream https://github.com/jackyzha0/quartz.git
+git remote -v
+npx quartz sync --no-pull
+npm i yargs --save
+npx quartz sync --no-pull
+startwm
+config nu 
+source $nu.config-path
+ls
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/PAF13/nushell.git
+git push -u origin main
